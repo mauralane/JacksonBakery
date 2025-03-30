@@ -1,0 +1,138 @@
+body {
+	width: 1440px;
+	height: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.topImages {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#bCake {
+	background-color: red;
+	width: 446.6666px;
+	height: 290px;
+}
+
+#cPie {
+	background-color: green;
+	width: 446.6666px;
+	height: 290px;
+}
+
+#dBites {
+	background-color: blue;
+	width: 446.6666px;
+	height: 290px;
+}
+
+.fRow {
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#order {
+	background-color: red;
+	width: 446.6666px;
+	height: 320px;
+}
+
+#cater {
+	background-color: green;
+	width: 446.6666px;
+	height: 500px;
+}
+
+#menu {
+	background-color: blue;
+	width: 446.6666px;
+	height: 500px;
+}
+
+.b {
+	width: auto;
+	height: auto;
+	background-color: purple;
+}
+
+.beginnings {
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 893.3333px;
+}
+
+#p1 {
+	background-color: red;
+	width: 446.6666px;
+	height: 300px;
+}
+
+#p2 {
+	background-color: green;
+	width: 446.6666px;
+	height: 300px;
+}
+
+#timeline {
+	background-color: blue;
+	width: 840px;
+	height: 50px;
+	margin-top: 50px;
+}
+
+#old {
+	background-color: red;
+	width: 446.6666px;
+	height: 250px;
+	margin-top: 50px;
+}
+
+#new {
+	background-color: green;
+	width: 446.6666px;
+	height: 250px;
+	margin-top: 50px;
+}
+
+.shop {
+	margin-top: 50px;
+	width: 446.6666px;
+	display: flex;
+	flex-direction: column;
+}
+
+#oShop {
+	background-color: blue;
+	width: 446.6666px;
+	height: 350px;
+}
+
+#iShop {
+	background-color: blue;
+	width: 446.6666px;
+	height: 350px;
+}
+
+.footer {
+	width: auto;
+	height:300px;
+	background-color: yellow;
+	display: flex;
+	justify-content: space-between;
+	margin-left: -50px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.box {
+	width: 300px;
+	height: 280px;
+	background-color: red;
+}
