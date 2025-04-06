@@ -1,8 +1,60 @@
 body {
-	width: 1440px;
+	width: auto;
 	height: auto;
 	margin-left: 50px;
 	margin-right: 50px;
+	font-size: 20px;
+}
+
+.header {
+	width: auto;
+	height:300px;
+	background-color: red;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: -50px;
+	margin-right: -50px;
+	margin-bottom: 50px;
+	margin-top: -50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 25px;
+	align-items: space-between;
+	justify-content: center;
+}
+
+#top {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+
+#ovenLogo {
+	width: 480px;
+	height: 160px;
+}
+
+.switch {
+	width: 160px;
+	height: 160px;
+}
+
+#nav {
+	width: 446.6666px;
+	height: auto;
+	background-color: green;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav {
+	width: auto;
 }
 
 .topImages {
@@ -34,6 +86,12 @@ body {
 	flex-wrap: wrap;
 }
 
+button {
+	width: 190px;
+	height: 50px;
+	background-color: yellow;
+}
+
 #order {
 	background-color: red;
 	width: 446.6666px;
@@ -50,12 +108,24 @@ body {
 	background-color: blue;
 	width: 446.6666px;
 	height: 500px;
+	display: flex;
+	flex-direction: column;
+}
+
+#menuButtons {
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 10px;
 }
 
 .b {
 	width: auto;
 	height: auto;
-	background-color: purple;
+	background-color: none;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .beginnings {
@@ -63,6 +133,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	width: 893.3333px;
+	background-color: none;
 }
 
 #p1 {
@@ -78,22 +149,23 @@ body {
 }
 
 #timeline {
-	background-color: blue;
+	background-color: none;
 	width: 840px;
-	height: 50px;
+	height: 120px;
 	margin-top: 50px;
 }
 
 #old {
 	background-color: red;
-	width: 446.6666px;
+	width: auto;
 	height: 250px;
 	margin-top: 50px;
+	margin-right: 50px;
 }
 
 #new {
 	background-color: green;
-	width: 446.6666px;
+	width: auto;
 	height: 250px;
 	margin-top: 50px;
 }
@@ -107,32 +179,44 @@ body {
 
 #oShop {
 	background-color: blue;
-	width: 446.6666px;
+	width: 400px;
 	height: 350px;
+	margin-left: 50px;
 }
 
 #iShop {
-	background-color: blue;
-	width: 446.6666px;
+	background-color: red;
+	width: 400px;
 	height: 350px;
+	margin-top: 70px;
+	margin-left: 50px;
 }
 
 .footer {
 	width: auto;
-	height:300px;
+	height:auto;
 	background-color: yellow;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-left: -50px;
-	margin-right: 0px;
-	margin-bottom: 0px;
+	margin-right: -50px;
+	margin-bottom: -50px;
 	margin-top: 50px;
 	padding-left: 50px;
 	padding-right: 50px;
+	padding-top: 50px;
 }
 
 .box {
-	width: 300px;
+	width: 350px;
 	height: 280px;
 	background-color: red;
+}
+
+@media (max-width: 1100px){
+	.switch {
+		display: none;
+	}
+
 }
