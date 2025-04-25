@@ -89,13 +89,13 @@ body {
 }
 
 #cPie {
-	background-color: green;
+	background-color: none;
 	width: 446.6666px;
 	height: 290px;
 }
 
 #dBites {
-	background-color: blue;
+	background-color: none;
 	width: 446.6666px;
 	height: 290px;
 }
@@ -118,6 +118,13 @@ body {
 	flex-wrap: wrap;
 }
 
+.fBox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 50px;
+}
+
 h1 {
 	font-size: 20px;
 	margin-bottom: -25px;
@@ -131,6 +138,10 @@ h2 {
 h3 {
 	font-size: 20px;
 	margin-bottom: -25px;
+}
+
+.noMargin {
+	margin-bottom: 10px;
 }
 
 h4 {
@@ -150,6 +161,46 @@ button {
 
 button:hover {
 	background-color: #d39cba;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+select {
+	font-size: 20px;
+	margin-left: 25px;
+}
+
+.orderDrop {
+	background-color: #B8809E;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-left: -50px;
+	margin-right: -50px;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	display: none;
+}
+
+#oBread {
+	visibility: hidden;
+}
+
+.oBread:focus {
+	#oBread {
+		visibility: visible;
+	}
+
+	.orderDrop {
+		display: inline;
+	}
+
+	background-color: #000000;
 }
 
 #order {
@@ -179,6 +230,29 @@ button:hover {
 	flex-direction: column;
 }
 
+.menu {
+	background-color: green;
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.menuMenu {
+	background-color: none;
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.menuServices {
+	background-color: none;
+	width: auto;
+	height: auto;
+}
+
 #menuButtons {
 	height: 400px;
 	display: flex;
@@ -187,17 +261,41 @@ button:hover {
 	gap: 10px;
 }
 
-#imgFlex{
+.menuButtons {
+	background-color: none;
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 10px;
+}
+
+.menuHeader {
+	color: #B8809E;
+	margin-top: 75px;
+	margin-bottom: 0;
+	font-size: 50px;
+}
+
+.imgFlex{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
-#comQuality {
+.comQuality {
 		display: flex;
 		flex-wrap: wrap;
 		margin-top: 50px;
 		margin-bottom: 50px;
+	}
+
+.hours {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 50px;
+		justify-content: space-between;
 	}
 
 .b {
@@ -222,11 +320,25 @@ h5 {
 	margin-top: 0px;
 }
 
-#p1 {
+.p1 {
 	background-color: none;
 	width: 400px;
 	height: 300px;
 	margin-right: 50px;
+}
+
+.pHours {
+	background-color: none;
+	width: 300px;
+	height: 200px;
+	line-height: 25px;
+}
+
+.pHours2 {
+	background-color: none;
+	width: 600px;
+	height: 200px;
+	margin-top: 50px;
 }
 
 #p2 {
@@ -339,6 +451,10 @@ h7 {
 	justify-content: flex-end;
 	text-align: right;
 	font-size: 25px;
+}
+
+::selection {
+  background: #d39cba;
 }
 
 @media (max-width: 1100px){
