@@ -75,7 +75,7 @@ body {
 }
 
 #bCake {
-	background-color: red;
+	background-color: none;
 	width: 446.6666px;
 	height: 290px;
 }
@@ -174,33 +174,72 @@ select {
 	margin-left: 25px;
 }
 
-.orderDrop {
-	background-color: #B8809E;
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 50px;
+.OrderDrop {
+	background-color: none;
 	margin-left: -50px;
 	margin-right: -50px;
 	padding-top: 50px;
 	padding-left: 50px;
 	padding-bottom: 50px;
-	display: none;
+	display: flex;
+	flex-wrap: wrap;
 }
 
-#oBread {
-	visibility: hidden;
+.orderbuttons {
+	margin-right: 5px;
+	margin-top: 10px;
 }
 
-.oBread:focus {
-	#oBread {
-		visibility: visible;
-	}
+.activated {
+    color: #000000;
+}
 
-	.orderDrop {
-		display: inline;
-	}
+.orderDrop {
+    display: hidden;
+}
 
-	background-color: #000000;
+.show-section {
+    display: block;
+}
+
+label {
+	height: 30px;
+}
+
+.label {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	color: #B8809E;
+}
+
+select {
+	height: 30px;
+}
+
+.drop {
+	display: flex;
+	flex-direction: column;
+	width: 120px;
+	gap: 20px;
+	font-size: 25%;
+}
+
+.drop2 {
+	display: flex;
+	flex-direction: column;
+	width: 120px;
+	gap: 20px;
+	font-size: 25%;
+}
+
+.drop3 {
+	margin-top: 50px;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 #order {
@@ -278,6 +317,11 @@ select {
 	font-size: 50px;
 }
 
+.placeOrder {
+	margin-left: 150px;
+	margin-top: -15px;
+}
+
 .imgFlex{
 	display: flex;
 	flex-wrap: wrap;
@@ -339,6 +383,7 @@ h5 {
 	width: 600px;
 	height: 200px;
 	margin-top: 50px;
+	margin-bottom: -125px;
 }
 
 #p2 {
@@ -570,6 +615,11 @@ h7 {
 	height: 300px;
 	margin-top: 100px;
 	margin-bottom: -100px;
+	}
+
+	.placeOrder {
+	margin-left: 0px;
+	margin-top: 50px;
 	}
 
 }
